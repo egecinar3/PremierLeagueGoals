@@ -34,9 +34,3 @@ data <- prem_2021_shooting %>%
     axis.text.y = element_text(face = "bold", size=12),
     axis.title = element_text(face = "bold", size=16))
 data
-?ifelse
-
-prem_2021_shooting %>% head()
-prem_2021_shooting %>%
-  filter(Squ == "Arsenal") %>%
-  select(xG_Expected, Gls_Standard)
